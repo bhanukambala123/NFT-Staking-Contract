@@ -1,0 +1,16 @@
+[package]
+name = "NFTstakingcontract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+bhanu_addr="f834af22b5f763a91bf4f402ba101d12c7e1c1d2e73bcf02e941fe24ba2b52e9"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
